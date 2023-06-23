@@ -31,10 +31,40 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.mostlyCentered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .container {
     position: relative;
     text-align: center;
     color: white;
+}
+html, body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.fullSizeImage {
+    max-height: 100vh;
+    max-width: 100vw;
+    min-height: 0;
+    min-width: 0;
+    margin: auto;
+}
+.fullSize {
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+.aVerySmartName{
+    position: relative; width: 100vw; height: -webkit-calc(100vh - 140px);
+    height:    -moz-calc(100vh - 140px);
+    height:         calc(100vh - 140px); 
 }
 /*.porAhiEstoNiSirve {
     max-height: 100vh;
