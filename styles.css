@@ -15,14 +15,20 @@
 .CenteredText {
     font-family: Calibri;text-align: center;
 }
-.NavLink {
+.HomeLink {
     height: 140px;
     display: inline;
     margin-left: 50px;
     margin-right: 50px;
 }
+.NavLink {
+    height: 140px;
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .TopNav {
-    background-color: white;
+    background-color: #f7c4b1;
     overflow: hidden;
 }
 .centered {
