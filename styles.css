@@ -68,18 +68,19 @@ html, body
     position: relative;
 }
 .aVerySmartName{
-    position: relative; width: 100vw; height: -webkit-calc(100vh - 140px);
-    height:    -moz-calc(100vh - 140px);
-    height:         calc(100vh - 140px); 
+    position: relative; width: 100vw; height: -webkit-calc(100vh - 170px);
+    height:    -moz-calc(100vh - 170px);
+    height:         calc(100vh - 170px); 
 }
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  /*max-width: 1000px;*/
   position: relative;
   margin: auto;
+  padding-top: 5px;
 }
 
 /* Hide the images by default */
@@ -95,7 +96,7 @@ html, body
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: rgb(130, 225, 253);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -144,6 +145,7 @@ html, body
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  margin-top: 3px;
 }
 
 .active, .dot:hover {
