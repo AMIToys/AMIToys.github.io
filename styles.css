@@ -84,6 +84,18 @@ html, body
                 
     transform: translate(-50%, -50%);
 }
+.imageAutoHeight{
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+                
+    position: absolute;
+    top: 50%;
+    left: 50%;
+                
+    transform: translate(-50%, -50%);
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
