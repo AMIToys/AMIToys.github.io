@@ -12,6 +12,9 @@
 .Text {
     font-family: Calibri;margin-left: 150px;margin-right: 150px;
 }
+.TextSmallMargin {
+    font-family: Calibri;margin-left: 100px;margin-right: 100px;
+}
 .CenteredText {
     font-family: Calibri;text-align: center;
 }
