@@ -5,6 +5,14 @@
     margin-left: 150px;
     margin-right: 150px;
 }  
+.pic {
+    margin:+5% 0 0;
+    float:left;
+}
+.info {
+    margin:+5% 10px;
+    float:left;
+}
 .TopImage {
     display: grid;
     height: 100vh;
