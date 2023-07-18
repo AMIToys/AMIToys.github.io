@@ -95,6 +95,9 @@ html, body
                 
     transform: translate(-50%, -50%);
 }
+.centerProduct{
+    width: calc(55.5vw - 244px); 
+}
 .imageAutoHeight{
     max-height: 100%;
     max-width: 100%;
