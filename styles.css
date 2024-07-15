@@ -62,7 +62,6 @@ a { color: inherit; }
 }
 html, body
 {
-    height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -253,3 +252,68 @@ html, body
 input { 
     padding: 5px; 
 }*/
+.TopNavV2 {
+    background-color: #f7c4b1;
+    overflow: hidden;
+    display: flex;
+    height: 140px;
+    position: sticky;
+    top: 0;
+}
+.NavLinkV2 {
+    height: 140px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.NavLinkContainerInside{
+    display: flex;
+    float: right;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+}
+.containerV2{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex; 
+    height: 140px; 
+    max-width: 240px; 
+    width: auto;
+}
+.containerV2Inside{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex; 
+    height: 140px; 
+    max-width: 200px; 
+    width: 200px;
+    background-color: #717171;
+    border-radius: 27px;
+}
+.navText{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    max-width: inherit;
+    display: inline;
+    padding: 0 30px;
+    box-sizing: border-box;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    overflow-wrap: normal;
+}
+.navHyperLnk{
+    display: flex;
+    text-decoration: none;
+}
+.customBorderRounding{
+    border-top: solid 50px;
+    box-sizing: content-box;
+    position: relative;
+    bottom: 50px;
+}
